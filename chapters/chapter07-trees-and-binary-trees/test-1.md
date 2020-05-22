@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 17:12:41
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-22 17:32:37
+ * @LastEditTime: 2020-05-22 20:13:15
  * @FilePath    : \data-structure\chapters\chapter07-trees-and-binary-trees\test-1.md
  * @Describe    : 
 --> 
@@ -37,7 +37,7 @@ DestroyBTree(BTNode *&b)            //释放二叉树b的所有结点
 ## 代码
 [exp7-1.cpp](./code/exp7-1.cpp)
 
-[test.cpp](./code/test.cpp)
+[test1.cpp](./code/test1.cpp)
 
 ## 复杂度分析
 
