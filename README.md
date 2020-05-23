@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 16:40:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-23 11:28:51
+ * @LastEditTime: 2020-05-23 20:58:18
  * @FilePath    : \data-structure\README.md
  * @Describe    : 
 --> 
@@ -11,17 +11,17 @@
 
 # 目录
 ### 第一章 绪论
-- [test-1](./chapters/chapter01-introduction/test-1.md)
-- [test-2](./chapters/chapter01-introduction/test-2.md)
+- [求 1~n 的连续整数和](./chapters/chapter01-introduction/test-1.md)
+- [常见算法时间函数的增长趋势分析](./chapters/chapter01-introduction/test-2.md)
 ### 第二章 线性表
 ### 第三章 栈和队列
 ### 第四章 串
 ### 第五章 递归
 ### 第六章 数组和广义表
 ### 第七章 树和二叉树
-- [test-1](./chapters/chapter07-trees-and-binary-trees/test-1.md)
-- [test-2](./chapters/chapter07-trees-and-binary-trees/test-2.md)
-- [test-3](./chapters/chapter07-trees-and-binary-trees/test-3.md)
+- [实现二叉树各种基本运算的算法](./chapters/chapter07-trees-and-binary-trees/test-1.md)
+- [实现二叉树各种遍历算法](./chapters/chapter07-trees-and-binary-trees/test-2.md)
+- [由遍历序列构造二叉树](./chapters/chapter07-trees-and-binary-trees/test-3.md)
 ### 第八章 图
 ### 第九章 查找
 ### 第十章 内排序
