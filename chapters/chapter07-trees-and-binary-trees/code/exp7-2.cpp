@@ -10,8 +10,6 @@
 #include "exp7-1.cpp"  //包含二叉树的基本运算算法
 #include <iostream>
 
-using namespace std;
-
 /**
  * 先序遍历的递归算法
  */
