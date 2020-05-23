@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 16:40:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-22 21:27:43
+ * @LastEditTime: 2020-05-23 11:28:51
  * @FilePath    : \data-structure\README.md
  * @Describe    : 
 --> 
@@ -21,6 +21,7 @@
 ### 第七章 树和二叉树
 - [test-1](./chapters/chapter07-trees-and-binary-trees/test-1.md)
 - [test-2](./chapters/chapter07-trees-and-binary-trees/test-2.md)
+- [test-3](./chapters/chapter07-trees-and-binary-trees/test-3.md)
 ### 第八章 图
 ### 第九章 查找
 ### 第十章 内排序
