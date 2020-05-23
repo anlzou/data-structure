@@ -12,7 +12,7 @@
 
 /**
  * 由先序和中序遍历序列构造二叉树
- * n:二叉树共有个节点
+ * n:二叉树共有n个节点
  */
 BTNode *createBTbyPreAndIn(char *pre, char *in, int n) {
     BTNode *b;
@@ -37,7 +37,7 @@ BTNode *createBTbyPreAndIn(char *pre, char *in, int n) {
 
 /**
  * 由中序和后序遍历序列构造二叉树
- * n:二叉树共有个节点
+ * n:二叉树共有n个节点
  */
 BTNode *createBTbyInAndPost(char *post, char *in, int n) {
     BTNode *b;
