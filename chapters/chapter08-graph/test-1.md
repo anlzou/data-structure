@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 17:12:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-24 17:02:06
+ * @LastEditTime: 2020-05-24 21:31:51
  * @FilePath    : \data-structure\chapters\chapter08-graph\test-1.md
  * @Describe    : 
 --> 
@@ -31,7 +31,9 @@ DestroyAdj(AdjGraph *&G)  //销毁图的邻接表 G
 ```
 
 ## 代码
-
+> - [struct.h](./code/struct/struct.h)
+>>- [exp8-1.cpp](./code/exp8-1.cpp)
+>>- [test1.cpp](./code/test1.cpp)
 
 ## 复杂度分析
 
