@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 17:12:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-24 21:43:50
+ * @LastEditTime: 2020-05-24 22:24:31
  * @FilePath    : \data-structure\chapters\chapter08-graph\test-1.md
  * @Describe    : 
 --> 
@@ -43,6 +43,15 @@ graph LR
 	a6-->|4|a4
 	a4-->|8|a5
 ```
+
+## 图的定义
+无论多复杂的的图都是由顶点和边构成的。采用形式化的定义，<p style="color:pink">图 (graph)G 由两个集合 V(vertex) 和 E(edge) 组成，记为<code> G = (V, E) </code>，其中 V 是顶点的有限集合，记为<code> V(G) </code>，E是连接 V 中两个不同顶点（顶点对）的边的有限集合，记为<code> E(G) </code>。</p>
+
+### [邻接矩阵](https://baike.baidu.com/item/%E9%82%BB%E6%8E%A5%E7%9F%A9%E9%98%B5/9796080?fr=aladdin)
+图的**邻接矩阵**(adjacency matrix)是一种采用邻接矩阵数组表示顶点之间相邻关系的存储结构。
+
+### [邻接表](https://www.jianshu.com/p/ce4109962031)
+图的**邻接表**(adjacency list)是一种顺序与链式存储相结合的存储方法。
 
 ## 代码
 > - [struct.h](./code/struct/struct.h)
