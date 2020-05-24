@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 17:12:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-24 21:31:51
+ * @LastEditTime: 2020-05-24 21:43:50
  * @FilePath    : \data-structure\chapters\chapter08-graph\test-1.md
  * @Describe    : 
 --> 
@@ -28,6 +28,20 @@ CreateAdj(MatGraph *&G, int A[MAXV][MAXV], int n, int e)   //由边数组 A、�
 DispAdj(AdjGraph *G)      //输出邻接表 G
 
 DestroyAdj(AdjGraph *&G)  //销毁图的邻接表 G
+```
+
+图8.1 一个带权的有向图
+```mermaid
+graph LR
+	a1((5))-->|1|a2((4))
+	a2-->|5|a3((3))
+	a3-->|5|a4((2))
+	a4-->|9|a1
+	a3-->|6|a1
+	a1-->|3|a5((0))
+	a5-->|5|a6((1))
+	a6-->|4|a4
+	a4-->|8|a5
 ```
 
 ## 代码
