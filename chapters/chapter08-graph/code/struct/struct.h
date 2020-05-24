@@ -6,7 +6,8 @@
  * @FilePath    : \data-structure\chapters\chapter08-graph\code\struct\struct.h
  * @Describe    :
  */
-#define MAXV 32767      //定义∞
+#define INF 32767       //定义∞
+#define MAXV 100        //定义最大定点数
 typedef char InfoType;  //存储类型
 
 /**
@@ -20,9 +21,9 @@ typedef struct {
 
 /* 完整的图邻接矩阵类型 */
 typedef struct {
-    int edges[MAXV][MAXV];  //邻接矩阵数组
-    int n, e;               //顶点数、边数
-    VertexType vexs[MAXV];  //存放顶点信息
+    int edges[MAXV][MAXV];      //邻接矩阵数组
+    int verticeNums, edgeNums;  //顶点数、边数
+    VertexType vexs[MAXV];      //存放顶点信息
 } MatGraph;
 
 /* 边结点的类型 */
@@ -41,6 +42,6 @@ typedef struct Vnode {
 
 /* 完整的图邻接表类型*/
 typedef struct {
-    Vnode adjlist[MAXV];  //邻接表头结点数组
-    int n, e;             //图中顶点数 n 和边数 e
+    Vnode adjlist[MAXV];        //邻接表头结点数组
+    int verticeNums, edgeNums;  //图中顶点数 n 和边数 e
 } AdjGraph;
