@@ -9,16 +9,17 @@
  */
 #include <iostream>
 #include <malloc.h>
+#include "./struct/node.h"
 
 using namespace std;
 #define MaxSize 100
-typedef char ElemType;  //存储类型
+// typedef char ElemType;  //存储类型
 
-typedef struct node {  //定义结点
-    ElemType data;
-    struct node *rchild;
-    struct node *lchild;
-} BTNode;
+// typedef struct node {  //定义结点
+//     ElemType data;
+//     struct node *rchild;
+//     struct node *lchild;
+// } BTNode;
 
 /**
  * 创建二叉树
