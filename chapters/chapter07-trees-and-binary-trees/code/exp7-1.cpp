@@ -83,6 +83,7 @@ void DestroyBTree(BTNode *&b) {
 
 /**
  * 查找值为x的结点
+ * 使用先序遍历
  */
 BTNode *FindNode(BTNode *b, ElemType x) {
     BTNode *p;
