@@ -14,6 +14,7 @@ int main() {
                          {8, INF, 0, INF, INF, 9},   {INF, INF, 5, 0, INF, 6},
                          {INF, INF, INF, 5, 0, INF}, {3, INF, INF, INF, 1, 0}};
     int v = 6, e = 10;  //图8.1中的数据
+
     CreateAdj(G, A, v, e);
     cout << "图 G 的邻接表:" << endl;
     DispAdj(G);
