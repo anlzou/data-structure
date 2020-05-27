@@ -43,8 +43,7 @@ bool Push(SqStack *&s, ElemType e) {
  * 出栈
  */
 bool Pop(SqStack *&s, ElemType &e) {
-    if (s->top == -1)  //栈为空的情况，即栈下溢出
-    {
+    if (s->top == -1) {  //栈为空的情况，即栈下溢出
         return false;
     }
     e = s->data[s->top];
@@ -56,8 +55,7 @@ bool Pop(SqStack *&s, ElemType &e) {
  * 取栈顶元素
  */
 bool GetTop(SqStack *s, ElemType &e) {
-    if (s->top == -1)  //栈为空的情况，即栈下溢出
-    {
+    if (s->top == -1) {  //栈为空的情况，即栈下溢出
         return false;
     }
     e = s->data[s->top];
