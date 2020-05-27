@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 16:40:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-27 10:16:45
+ * @LastEditTime: 2020-05-27 21:24:07
  * @FilePath    : \data-structure\README.md
  * @Describe    : 
 --> 
@@ -16,6 +16,7 @@
 ### 第二章 线性表
 ### 第三章 栈和队列
 - [实现顺序栈各种基本运算的算法](./chapters/chapter03-stacks-and-queues/test-1.md)
+- [实现链栈各种基本运算的算法](./chapters/chapter03-stacks-and-queues/test-2.md)
 ### 第四章 串
 ### 第五章 递归
 ### 第六章 数组和广义表
