@@ -37,7 +37,7 @@ bool StackEmpty(LinkStNode *s) { return (s->next == NULL); }
 /**
  * 进栈
  */
-void Push(LinkStNode *&s, ElemType &e) {
+void Push(LinkStNode *&s, ElemType e) {
     LinkStNode *p;
     p = (LinkStNode *)malloc(sizeof(linknode));
     p->data = e;        //新建元素 e 对应的结点p
