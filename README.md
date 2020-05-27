@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 16:40:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-25 23:16:09
+ * @LastEditTime: 2020-05-27 10:16:45
  * @FilePath    : \data-structure\README.md
  * @Describe    : 
 --> 
@@ -15,6 +15,7 @@
 - [常见算法时间函数的增长趋势分析](./chapters/chapter01-introduction/test-2.md)
 ### 第二章 线性表
 ### 第三章 栈和队列
+- [实现顺序栈各种基本运算的算法](./chapters/chapter03-stacks-and-queues/test-1.md)
 ### 第四章 串
 ### 第五章 递归
 ### 第六章 数组和广义表

@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 17:12:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-27 09:36:50
+ * @LastEditTime: 2020-05-27 10:14:26
  * @FilePath    : \data-structure\chapters\chapter03-stacks-and-queues\test-1.md
  * @Describe    : 
 --> 
@@ -38,7 +38,9 @@ GetTop(SqStack *s, ElemType &e)	//取顺序栈的栈顶元素 e
 栈的主要特点是“后进先出”(Last In First Out, LIFO)，即后进栈的元素先出栈。每次进栈的数据元素都放在原来栈顶元素之前称为新的栈顶元素，每次出栈的数据元素都是当前栈顶元素。栈也称为**后进先出表**。
 
 ## 代码
-
+> - [struct.h](./code/struct/struct.h)
+>> - [exp3-1.cpp](./code/exp3-1.cpp)
+>> - [test1.cpp](./code/test1.cpp)
 
 ## 复杂度分析
 
