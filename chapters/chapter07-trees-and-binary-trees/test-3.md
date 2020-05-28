@@ -2,7 +2,7 @@
  * @Date        : 2020-05-23 11:00:22
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-28 15:49:06
+ * @LastEditTime: 2020-05-28 15:57:27
  * @FilePath    : \data-structure\chapters\chapter07-trees-and-binary-trees\test-3.md
  * @Describe    : 
 --> 
@@ -20,11 +20,11 @@
 ```
 函数：
 ```java
-createBTbyPreAndIn(char *pre, char * in, int n)    //由先序序列pre和中序序列in构造二叉树
+createBTbyPreAndIn(char *pre, char * in, int n)     //由先序序列pre和中序序列in构造二叉树
 
 createBTbyInAndPost(char *post, char *in, int n)    //由中序序列in和后序序列post构造二叉树
 
-dispBTree(BTNode *b)                                //二叉树b的中序遍历的递归算法
+dispBTree(BTNode *b)                                //以凹入表示，输出一颗二叉树
 ```
 
 ## 代码

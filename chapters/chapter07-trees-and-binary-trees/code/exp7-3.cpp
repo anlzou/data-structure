@@ -62,7 +62,7 @@ BTNode *createBTbyInAndPost(char *post, char *in, int n) {
 }
 
 /**
- * 以凹入表示输出一颗二叉树
+ * 以凹入表示，输出一颗二叉树
  */
 void dispBTree(BTNode *b) {
     BTNode *St[MaxSize], *p;
