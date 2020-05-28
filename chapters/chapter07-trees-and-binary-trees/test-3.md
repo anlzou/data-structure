@@ -2,7 +2,7 @@
  * @Date        : 2020-05-23 11:00:22
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-23 11:29:15
+ * @LastEditTime: 2020-05-28 15:49:06
  * @FilePath    : \data-structure\chapters\chapter07-trees-and-binary-trees\test-3.md
  * @Describe    : 
 --> 
@@ -28,9 +28,9 @@ dispBTree(BTNode *b)                                //二叉树b的中序遍历�
 ```
 
 ## 代码
-[exp7-3.cpp](./code/exp7-3.cpp)
+- [exp7-3.cpp](./code/exp7-3.cpp)
 
-[tes3.cpp](./code/test3.cpp)
+- [tes3.cpp](./code/test3.cpp)
 
 ## 复杂度分析
 

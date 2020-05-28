@@ -2,7 +2,7 @@
  * @Date        : 2020-05-22 20:04:30
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-23 19:27:18
+ * @LastEditTime: 2020-05-28 15:48:56
  * @FilePath    : \data-structure\chapters\chapter07-trees-and-binary-trees\test-2.md
  * @Describe    : 
 --> 
@@ -74,9 +74,9 @@ travLevel(BTNode *b)        //二叉树b的层次遍历算法
 
 
 ## 代码
-[exp7-2.cpp](./code/exp7-2.cpp)
+- [exp7-2.cpp](./code/exp7-2.cpp)
 
-[tes2.cpp](./code/test2.cpp)
+- [tes2.cpp](./code/test2.cpp)
 
 ## 复杂度分析
 
