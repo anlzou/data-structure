@@ -30,8 +30,9 @@ bool QueueEmpty(SqQueue *q) { return (q->front == q->rear); }
 /**
  * 进队
  */
-bool enQueue(SqQueue *&q, ElemType &e) {
+bool enQueue(SqQueue *&q, ElemType e) {
     if ((q->rear + 1) % MaxSize == q->front) {
+        cout << "提示：队满，不能进队!!!!!!!!!" << endl;
         return false;  //队满，上溢出，返回假
     }
     q->rear = (q->rear + 1) % MaxSize;
@@ -42,8 +43,9 @@ bool enQueue(SqQueue *&q, ElemType &e) {
 /**
  * 出队
  */
-bool deQueuep(SqQueue *&q, ElemType &e) {
+bool deQueue(SqQueue *&q, ElemType &e) {
     if (q->front == q->rear) {
+        cout << "提示：队空，不能进队!!!!!!!!!" << endl;
         return false;  //队空，下溢出，返回假
     }
     q->front = (q->front + 1) % MaxSize;

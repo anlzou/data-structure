@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 17:12:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-28 14:35:44
+ * @LastEditTime: 2020-05-28 15:44:55
  * @FilePath    : \data-structure\chapters\chapter03-stacks-and-queues\test-2.md
  * @Describe    : 
 --> 
@@ -43,8 +43,8 @@ GetTop(LinkStNode *s, ElemType &e)	//取链栈的栈顶元素 e
 
 ## 代码
 > - [struct.h](./code/struct/struct.h)
->> - [exp3-2.cpp](./code/exp3-1.cpp)
->> - [test2.cpp](./code/test1.cpp)
+>> - [exp3-2.cpp](./code/exp3-2.cpp)
+>> - [test2.cpp](./code/test2.cpp)
 
 ## 复杂度分析
 

@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 17:12:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-28 15:23:14
+ * @LastEditTime: 2020-05-28 15:45:04
  * @FilePath    : \data-structure\chapters\chapter03-stacks-and-queues\test-3.md
  * @Describe    : 
 --> 
@@ -25,7 +25,7 @@ DestroyQueue(SqQueue *&q)	    	//销毁环形队列 q
 
 QueueEmpty(SqQueue *q)			    //判断环形队列 q 是否为空栈
 
-enQueue(SqQueue *&q, ElemType &e)	//环形队列进队一个元素 e
+enQueue(SqQueue *&q, ElemType e)	//环形队列进队一个元素 e
 
 deQueuep(SqQueue *&q, ElemType &e)	//环形队列出队一个元素 e
 ```
@@ -45,10 +45,10 @@ deQueuep(SqQueue *&q, ElemType &e)	//环形队列出队一个元素 e
 
 ## 代码
 > - [struct.h](./code/struct/struct.h)
->> - [exp3-3.cpp](./code/exp3-1.cpp)
->> - [test3.cpp](./code/test1.cpp)
+>> - [exp3-3.cpp](./code/exp3-3.cpp)
+>> - [test3.cpp](./code/test3.cpp)
 
 ## 复杂度分析
 
-- 时间复杂度：O(1)
+- 时间复杂度：O( )
 - 空间复杂度：O( )
