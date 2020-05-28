@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 17:12:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-27 21:10:50
+ * @LastEditTime: 2020-05-28 14:35:44
  * @FilePath    : \data-structure\chapters\chapter03-stacks-and-queues\test-2.md
  * @Describe    : 
 --> 
@@ -11,7 +11,7 @@
 8.1 验证性实验
 
 ## 题目描述
-实验题 1：实现链栈各种基本运算的算法
+实验题 2：实现链栈各种基本运算的算法
 
 目的：
 
