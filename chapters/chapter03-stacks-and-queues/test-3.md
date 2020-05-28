@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 17:12:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-28 15:09:56
+ * @LastEditTime: 2020-05-28 15:23:14
  * @FilePath    : \data-structure\chapters\chapter03-stacks-and-queues\test-3.md
  * @Describe    : 
 --> 
@@ -19,15 +19,15 @@
 
 函数：
 ```java
-InitQueue(SqQueue *&q)			//初始化环形队列 q
+InitQueue(SqQueue *&q)  			//初始化环形队列 q
 
-DestroyQueue(SqQueue *&q)		//销毁环形队列 q
+DestroyQueue(SqQueue *&q)	    	//销毁环形队列 q
 
-QueueEmpty(SqQueue *q)			//判断环形队列 q 是否为空栈
+QueueEmpty(SqQueue *q)			    //判断环形队列 q 是否为空栈
 
-enQueue(SqQueue *&q, ElemType &q)	//环形队列进队一个元素 e
+enQueue(SqQueue *&q, ElemType &e)	//环形队列进队一个元素 e
 
-deQueuep(SqQueue *&q, ElemType &q)	//环形队列出队一个元素 e
+deQueuep(SqQueue *&q, ElemType &e)	//环形队列出队一个元素 e
 ```
 
 ## 思路
@@ -38,7 +38,7 @@ deQueuep(SqQueue *&q, ElemType &q)	//环形队列出队一个元素 e
 队列又称为**先进先出表**(First In First Out,FIFO)。
 
 采用顺序存储结构的队列称为**顺序队列**(sequential queue)。存在溢出的情况：
-1. 进队时队满的条件是(rear == MaxSize-1)，表示此时队满（上溢出）了，不能再进队元素。出队队空的条件是(front > rear || front > MaxSize-1)。
+1. 进队时队满的条件是(rear == MaxSize-1)，表示此时队满（上溢出）了，不能再进队元素。出队队空的条件是(front == rear)，表示队空（下溢出）了。
 2. 还有一种溢出叫做**假溢出**(false voerflow)，进队和出队都有操作，进队时队满而出队的一端有空位置。解决的方法是使用环形队列。
 
 把 data 数组的前端和后端连接起来，形成一个环形数组，即把存储队列元素的数组从逻辑上看成一个环，称为**环形队列/循环队列**(circular quenue)。

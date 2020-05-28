@@ -30,3 +30,11 @@ typedef struct linknode {
     ElemType data;          //数据域
     struct linknode *next;  //指针域
 } LinkStNode;               //链栈类型定义
+
+/**
+ * 环形队列结构体
+ */
+typedef struct {
+    ElemType data[MaxSize];
+    int front, rear;  //队首和队为指针
+} SqQueue;            //声明环形队列类型
