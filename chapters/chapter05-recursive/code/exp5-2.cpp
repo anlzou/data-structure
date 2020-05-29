@@ -24,7 +24,7 @@ int pathnum(int x, int y) {
 /**
  * 输出从 (x, y) 到 (1, 1) 的所有路径
  */
-void dispath(int x, int y, PathType path[], int d) {
+void disppath(int x, int y, PathType path[], int d) {
     if (x < 1 || y < 1) {
         return;
     }
@@ -42,8 +42,8 @@ void dispath(int x, int y, PathType path[], int d) {
         d++;  //将当前位置放入 path 中
         path[d].x = x;
         path[d].y = y;
-        dispath(x - 1, y, path, d);  //向下走一步
-        dispath(x, y - 1, path, d);  //退回来，向右走一步
+        disppath(x - 1, y, path, d);  //向下走一步
+        disppath(x, y - 1, path, d);  //退回来，向右走一步
     }
 }
 
@@ -55,6 +55,6 @@ int main() {
 
     PathType path[MaxSize];
     int d = -1;
-    dispath(x, y, path, d);
+    disppath(x, y, path, d);
     return 0;
 }
