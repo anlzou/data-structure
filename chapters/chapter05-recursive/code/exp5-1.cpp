@@ -2,14 +2,6 @@
  * @Date        : 2020-05-29 11:12:07
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-29 12:46:48
- * @FilePath    : \data-structure\chapters\chapter05-recursive\code\exp5-1.cpp
- * @Describe    :
- */
-/***
- * @Date        : 2020-05-29 11:12:07
- * @LastEditors : anlzou
- * @Github      : https://github.com/anlzou
  * @LastEditTime: 2020-05-29 11:20:08
  * @FilePath    : \data-structure\chapters\chapter05-recursive\code\exp5-1.cpp
  * @Describe    :
