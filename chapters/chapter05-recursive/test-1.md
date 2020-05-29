@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-29 11:11:44
+ * @LastEditTime: 2020-05-29 13:03:29
  * @FilePath    : \data-structure\chapters\chapter05-recursive\test-1.md
  * @Describe    : 
  -->
@@ -32,10 +32,15 @@ Hanoi(n-1, b, a, c);    //将b中 n-1(除了最底部的圆盘)个圆盘从b 借
 ```
 
 ## 关键点
-- 递归出口<code>(n == 1)</code>
+#1
+递归出口<code>(n == 1)</code>
+
+#2
+栈
 
 ## 代码
-
+- [hearder.h](./code/hearder/hearder.h)
+- [exp5-1.cpp](./code/exp5-1.cpp)
 
 ## 复杂度分析
 
