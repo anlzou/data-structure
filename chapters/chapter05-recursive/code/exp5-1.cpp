@@ -6,7 +6,7 @@
  * @FilePath    : \data-structure\chapters\chapter05-recursive\code\exp5-1.cpp
  * @Describe    :
  */
-#include "./hearder/hearder.h"
+#include "./header/header.h"
 
 /**
  * 求解 Hanoi 问题的递归算法
