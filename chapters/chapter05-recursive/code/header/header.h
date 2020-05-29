@@ -69,3 +69,9 @@ bool Pop(StackType *&s, ElemType &e) {
     s->top--;
     return true;
 }
+
+/*=============迷宫问题结构体================*/
+typedef struct {
+    int x, y;
+} PathType;   //路径元素类型
+int add = 0;  //路径编号

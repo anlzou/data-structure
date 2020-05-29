@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 16:40:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-29 13:04:07
+ * @LastEditTime: 2020-05-29 17:26:56
  * @FilePath    : \data-structure\README.md
  * @Describe    : 
 --> 
@@ -21,6 +21,7 @@
 ### 第四章 串
 ### 第五章 递归
 - [采用递归和非递归方法求解 Hanoi 问题](./chapters/chapter05-recursive/test-1.md)
+- [求路径和路径条数问题](./chapters/chapter05-recursive/test-2.md)
 ### 第六章 数组和广义表
 ### 第七章 树和二叉树
 - [实现二叉树各种基本运算的算法](./chapters/chapter07-trees-and-binary-trees/test-1.md)
