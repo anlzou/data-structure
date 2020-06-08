@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 16:40:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-29 17:26:56
+ * @LastEditTime: 2020-06-08 23:25:03
  * @FilePath    : \data-structure\README.md
  * @Describe    : 
 --> 
@@ -19,6 +19,7 @@
 - [实现链栈各种基本运算的算法](./chapters/chapter03-stacks-and-queues/test-2.md)
 - [实现环形队列各种基本运算的算法](./chapters/chapter03-stacks-and-queues/test-3.md)
 ### 第四章 串
+- [实现顺序串各种基本运算的算法](./chapters/chapter04-string/test-1.md)
 ### 第五章 递归
 - [采用递归和非递归方法求解 Hanoi 问题](./chapters/chapter05-recursive/test-1.md)
 - [求路径和路径条数问题](./chapters/chapter05-recursive/test-2.md)
