@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-08 23:03:14
+ * @LastEditTime: 2020-06-09 23:36:17
  * @FilePath    : \data-structure\chapters\chapter04-string\test-1.md
  * @Describe    : 
  -->
@@ -67,7 +67,8 @@ typedef struct snode{
 - [exp5-1.cpp](./code/exp5-1.cpp)
 
 ## 补充
-1字=n字节(1 word = n byte) ,1字节=8位(1 byte = 8bit) 。
+- 1字=n字节(1 word = n byte) ,1字节=8位(1 byte = 8bit) 。
+- [warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]](https://www.cnblogs.com/zkfopen/p/10521715.html)
 
 ## 复杂度分析
 
