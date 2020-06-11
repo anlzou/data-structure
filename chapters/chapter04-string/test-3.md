@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-11 17:40:59
+ * @LastEditTime: 2020-06-11 17:43:17
  * @FilePath    : \data-structure\chapters\chapter04-string\test-3.md
  * @Describe    : 
  -->
@@ -33,6 +33,9 @@ Count(SqString s, SqString t)                   //利用 KMP 算法求 t 在 s �
 
 ## 思路
 - [漫画：什么是KMP算法？](https://mp.weixin.qq.com/s/3gYbmAAFh08BQmT-9quItQ)
+- [字符串匹配的KMP算法-阮一峰](http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html)
+
+
 ## 关键点
 
 ## 代码
