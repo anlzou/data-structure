@@ -26,5 +26,5 @@ typedef struct {
  */
 typedef struct snode {
     char data;           //存放字符
-    struct snode *node;  //指向下一个结点的指针
+    struct snode *next;  //指向下一个结点的指针
 } LinkStrNode;           //链串的结点类型

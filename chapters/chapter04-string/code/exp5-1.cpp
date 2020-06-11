@@ -187,7 +187,7 @@ void DispStr(SqString s) {
         cout << endl;
     }
 }
-
+#ifndef RUN_MAIN
 /* ======================Test======================== */
 int main() {
     SqString s, s1, s2, s3, s4;
@@ -235,3 +235,5 @@ int main() {
 
     return 0;
 }
+
+#endif
