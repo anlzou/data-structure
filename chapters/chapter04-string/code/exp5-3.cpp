@@ -8,9 +8,6 @@
  */
 #define RUN_MAIN
 #include "./exp5-1.cpp"
-#include <iostream>
-
-using namespace std;
 
 /**
  * 由模式串 t 求出 next 值
@@ -42,6 +39,7 @@ void display(SqString s, SqString t, int i, int j) {
     }
     cout << "↓ i = " << i << ", j = " << j
          << endl;  //显示 i 指向的 s 串中的字符
+
     cout << "s:";
     for (k = 0; k < s.length; k++) {  //显示 s
         cout << s.data[k] << " ";
@@ -52,6 +50,7 @@ void display(SqString s, SqString t, int i, int j) {
     for (k = 0; k < i - j; k++) {  //显示 t 前面的空格
         cout << "  ";
     }
+
     for (k = 0; k < t.length; k++) {  //显示 t
         cout << t.data[k] << " ";
     }
