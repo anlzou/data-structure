@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-11 17:31:11
+ * @LastEditTime: 2020-06-11 17:40:59
  * @FilePath    : \data-structure\chapters\chapter04-string\test-3.md
  * @Describe    : 
  -->
@@ -67,7 +67,7 @@ t:                        a a b b d
 t 在 s 中出现的次数：2
 ```
 
-# 补充
+## 补充
 漫画：几种字符串匹配算法
 - [BF算法和RK算法](https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653201142&idx=1&sn=8cac1bbcfdb94474f0cc3855705cc253&chksm=8c99d02cbbee593ae0fb7fa1c8c610e7c1f57009e0c0ecbe19d07f60951912c915bce65c8619&scene=21#wechat_redirect)
 - [BM算法](https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653201540&idx=1&sn=645a3f5f3fbf30be4f6d1c23eebdf0e7&chksm=8c99d65ebbee5f482dd68efecf7b2a23e98b238ba04c1d3a6aed6c12cab76d4650c3bef5ea00&scene=21#wechat_redirect)
