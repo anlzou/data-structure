@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-18 23:18:52
+ * @LastEditTime: 2020-06-18 23:26:28
  * @FilePath    : \data-structure\chapters\chapter04-string\test-2.md
  * @Describe    : 
  -->
@@ -18,25 +18,25 @@
 
 函数：
 ```cpp
-StrAssign(LinkStrNode &str, char cstr[])   //由串常量 cstr 创建链串 str
+StrAssign(LinkStrNode &str, char cstr[])            //由串常量 cstr 创建链串 str
 
-StrCopy(LinkStrNode &s, LinkStrNode t)        //将链串 t 复制到串 s
+StrCopy(LinkStrNode &s, LinkStrNode t)              //将链串 t 复制到串 s
 
-StrEqual(LinkStrNode s, LinkStrNode t)        //判断两个链串 s 和 t 是否相同
+StrEqual(LinkStrNode s, LinkStrNode t)              //判断两个链串 s 和 t 是否相同
 
-StrLength(LinkStrNode s)                   //求链串 s 的长度
+StrLength(LinkStrNode s)                            //求链串 s 的长度
 
-Concat(LinkStrNode s, LinkStrNode t)          //返回将链串 t 连接到链串 s 之后构成的新串
+Concat(LinkStrNode s, LinkStrNode t)                //返回将链串 t 连接到链串 s 之后构成的新串
 
-SubStr(LinkStrNode s, int i, int j)        //返回由链串 s 的第 i 个字符开始的 j 个字符构成的新串
+SubStr(LinkStrNode s, int i, int j)                 //返回由链串 s 的第 i 个字符开始的 j 个字符构成的新串
 
-InsStr(LinkStrNode s1, int i, LinkStrNode s2) //返回将链串 s2 插入到链串 s1 的第 i 个位置中构成的新串
+InsStr(LinkStrNode s1, int i, LinkStrNode s2)       //返回将链串 s2 插入到链串 s1 的第 i 个位置中构成的新串
 
-DelStr(LinkStrNode s, int i, int j)        //返回删除链串 s 的第 i 个字符开始的 j 个字符构成的新串
+DelStr(LinkStrNode s, int i, int j)                 //返回删除链串 s 的第 i 个字符开始的 j 个字符构成的新串
 
-RepStr(LinkStrNode s, int i, int j, LinkStrNode t) //返回将链串 s 的第 i 个字符开始的 j 个字符替换成链串 t 构成的新串
+RepStr(LinkStrNode s, int i, int j, LinkStrNode t)  //返回将链串 s 的第 i 个字符开始的 j 个字符替换成链串 t 构成的新串
 
-DispStr(LinkStrNode s)                     //输出链串 s 的所有元素
+DispStr(LinkStrNode s)                              //输出链串 s 的所有元素
 ```
 
 ## 思路
@@ -49,7 +49,7 @@ DispStr(LinkStrNode s)                     //输出链串 s 的所有元素
 typedef struct{
     char data[MaxSize]; //存放串字符
     int length;         //存放串长
-}LinkStrNode;              //顺序串类型
+}LinkStrNode;           //顺序串类型
 ```
 
 #### 链串
@@ -67,8 +67,6 @@ typedef struct snode{
 - [exp5-2.cpp](./code/exp5-2.cpp)
 
 ## 补充
-- 1字=n字节(1 word = n byte) ,1字节=8位(1 byte = 8bit) 。
-- [warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]](https://www.cnblogs.com/zkfopen/p/10521715.html)
 
 ## 复杂度分析
 
