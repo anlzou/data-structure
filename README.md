@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 16:40:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-11 16:47:11
+ * @LastEditTime: 2020-06-18 23:20:26
  * @FilePath    : \data-structure\README.md
  * @Describe    : 
 --> 
@@ -20,6 +20,7 @@
 - [实现环形队列各种基本运算的算法](./chapters/chapter03-stacks-and-queues/test-3.md)
 ### 第四章 串
 - [实现顺序串各种基本运算的算法](./chapters/chapter04-string/test-1.md)
+- [实现链串各种基本运算的算法](./chapters/chapter04-string/test-2.md)
 - [利用 KMP 算法求子串在主串中出现的次数](./chapters/chapter04-string/test-3.md)
 ### 第五章 递归
 - [采用递归和非递归方法求解 Hanoi 问题](./chapters/chapter05-recursive/test-1.md)
