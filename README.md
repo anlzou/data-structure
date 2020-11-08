@@ -2,15 +2,15 @@
  * @Date        : 2020-05-21 16:40:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-18 23:20:26
+ * @LastEditTime: 2020-11-08 15:41:43
  * @FilePath    : \data-structure\README.md
  * @Describe    : 
 --> 
 # data-structure-test《数据结构教程》（第五版）李春*
->### 不问为什么重拾数据结构，只是突然想把它理解透。
 
 # 目录
 ### 第一章 绪论
+- [图解！24张图彻底弄懂九大常见数据结构！](./chapters/chapter01-introduction/nine-data-structure-diagrams.md)
 - [求 1~n 的连续整数和](./chapters/chapter01-introduction/test-1.md)
 - [常见算法时间函数的增长趋势分析](./chapters/chapter01-introduction/test-2.md)
 ### 第二章 线性表
