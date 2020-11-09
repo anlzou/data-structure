@@ -2,8 +2,8 @@
  * @Date        : 2020-05-21 17:12:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-25 23:14:08
- * @FilePath    : \data-structure\chapters\chapter08-graph\test-2.md
+ * @LastEditTime: 2020-11-09 10:57:23
+ * @FilePath    : \data-structure\chapters\chapter08_graph\test-2.md
  * @Describe    : 
 --> 
 
@@ -27,6 +27,8 @@ BFS(G, v)   		//从顶点 v 广度优先遍历图 G
 ```
 
 ## 思路
+- [漫画：图的深度优先遍历 和 广度优先遍历](http://note.youdao.com/noteshare?id=3a2649d5db30c3ac99eca6201e0f12b8&sub=C677D20AB8FD48A88AA1D4EBEC32AEFC)
+
 DFSunre(G, v)算法的伪代码思路如下：
 ```java
 栈 St 初始化，visited 数组所有元素初始化为 0 ;
@@ -47,9 +49,15 @@ while(栈 St 非空){
 ```
 
 ## 代码
-- [exp8-2.cpp](./code/exp8-2.cpp)
-- [test2.cpp](./code/test2.cpp)
+> c
+>- [struct.h](./code/struct/struct.h)
+>>- [exp8-2.cpp](./code/exp8-2.cpp)
+>>- [test2.cpp](./code/test2.cpp)
 
+> java
+>- [StrGraph.java](./code/struct/StrGraph.java)
+>>- [GraphFirstSearch.java](./code/GraphFirstSearch.java)
+>>- [Test.java](./code/test/Test.java)
 ## 复杂度分析
 
 - 时间复杂度：O( )
