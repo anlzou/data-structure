@@ -5,7 +5,18 @@
 
 typedef char ElemType;
 
+/**
+ * 顺序表结构体
+ */
 typedef struct {
     ElemType data[MaxSize];
     int length;
 } SqList;
+
+/**
+ * 单链表结构体
+ */
+typedef struct LNode {
+    ElemType data;
+    struct LNode *next;  //指向后继节点
+} LinkNode;              //声明单链表节点类型
