@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 16:40:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-11-09 19:58:14
+ * @LastEditTime: 2020-11-10 20:02:09
  * @FilePath    : \data-structure\README.md
  * @Describe    : 
 --> 
@@ -14,6 +14,7 @@
 - [求 1~n 的连续整数和](./chapters/chapter01-introduction/test-1.md)
 - [常见算法时间函数的增长趋势分析](./chapters/chapter01-introduction/test-2.md)
 ### 第二章 线性表
+- [实现顺序表各种基本运算的算法](./chapters/chapter02_linear_list/test-1.md)
 ### 第三章 栈和队列
 - [实现顺序栈各种基本运算的算法](./chapters/chapter03-stacks-and-queues/test-1.md)
 - [实现链栈各种基本运算的算法](./chapters/chapter03-stacks-and-queues/test-2.md)
