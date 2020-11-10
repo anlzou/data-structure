@@ -37,5 +37,5 @@ void CreateListRearInseart(LinkNode *&L, ElemType a[], int n) {
         r->next = s;
         r = s;
     }
-    r->next = NULL;  //尾节点next域为NULL，用来判断结束
+    r->next = NULL;  //尾节点next域为NULL
 }
