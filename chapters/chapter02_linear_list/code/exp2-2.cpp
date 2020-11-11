@@ -39,3 +39,134 @@ void CreateListRearInseart(LinkNode *&L, ElemType a[], int n) {
     }
     r->next = NULL;  //尾节点next域为NULL
 }
+
+/**
+ * 初始化线性表
+ */
+void InitList(LinkNode *&L) {
+    L = (LinkNode *)malloc(sizeof(LinkNode));
+    L->next = NULL;
+}
+
+/**
+ * 销毁线性表
+ */
+void DestroyList(LinkNode *&L) {
+    LinkNode *pre = L, *p = pre->next;
+    while (p != NULL) {
+        free(pre);
+        pre = p;  // pre，p同步后移一个节点
+        p = pre->next;
+    }
+    free(pre);  //此时p = NULL,pre指向尾节点，释放它
+}
+
+/**
+ * 判断线性表是否为空表
+ */
+bool ListEmpty(LinkNode *L) { return (L->next == NULL); }
+
+/**
+ * 求线性表的长度
+ */
+int ListLength(LinkNode *L) {
+    int len = 0;
+    LinkNode *p = L;  // p指向头节点，i置为0（即头节点的序号为0）
+    while (p->next != NULL) {
+        len++;
+        p = p->next;
+    }
+    return (len);
+}
+
+/**
+ * 输出线性表
+ */
+void DispList(LinkNode *L) {
+    LinkNode *p = L->next;
+    while (p != NULL) {
+        printf("%c ", p->data);
+        p = p->next;
+    }
+    printf("\n");
+}
+
+/**
+ * 求线性表中第i个元素
+ */
+bool GetElem(LinkNode *L, int i, ElemType &e) {
+    int j = 0;
+    LinkNode *p = L;
+    if (i <= 0) return false;
+    while (j < i && p != NULL) {
+        j++;
+        p = p->next;
+    }
+    if (p == NULL)
+        return false;
+    else {
+        e = p->data;
+        return true;
+    }
+}
+
+/**
+ * 查找第1个值域为e的元素序号
+ */
+int LocateElem(LinkNode *L, ElemType e) {
+    int i = 1;
+    LinkNode *p = L->next;
+    while (p != NULL && p->data != e) {
+        p = p->next;
+        i++;
+    }
+    if (p == NULL)
+        return (0);
+    else
+        return (i);
+}
+
+/**
+ * 插入第i个元素
+ */
+bool ListInsert(LinkNode *&L, int i, ElemType e) {
+    int j = 0;
+    LinkNode *p = L, *s;
+    if (i <= 0) return false;
+    while (j < i - 1 && p != NULL) {  //定位第i个节点
+        j++;
+        p = p->next;
+    }
+    if (p == NULL)
+        return false;
+    else {
+        s = (LinkNode *)malloc(sizeof(LinkNode));  //插入的节点
+        s->data = e;
+        s->next = p->next;  //插入的节点指向i节点指向的节点
+        p->next = s;        // i节点指向插入节点
+        return true;
+    }
+}
+
+/**
+ * 删除第i个元素
+ */
+bool ListDelete(LinkNode *&L, int i, ElemType &e) {
+    int j = 0;
+    LinkNode *p = L, *q;
+    if (i <= 0) return false;
+    while (j < i - 1 && p != NULL) {  //定位第i个节点
+        j++;
+        p = p->next;
+    }
+    if (p == NULL)
+        return false;
+    else {
+        q = p->next;  // q是删除的节点
+        if (q == NULL) return false;
+        e = q->data;
+        p->next = q->next;
+        free(q);
+        return true;
+    }
+}
