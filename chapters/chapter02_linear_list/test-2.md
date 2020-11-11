@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-11-10 20:15:01
+ * @LastEditTime: 2020-11-11 19:26:09
  * @FilePath    : \data-structure\chapters\chapter02_linear_list\test-2.md
  * @Describe    : 
  -->
@@ -10,7 +10,7 @@
 2.1 验证性实验
 
 ## 题目描述
-实验1：实现单链表各种基本运算的算法
+实验2：实现单链表各种基本运算的算法
 
 目的：
 
@@ -18,6 +18,10 @@
 
 函数：
 ```c++
+CreateListFrontInseart(LinkNode *&L, ElemType a[], int n)//头插法建立单链表
+
+CreateListRearInseart(LinkNode *&L, ElemType a[], int n)//尾插法建立单链表
+
 InitList(LinkNode *&L)     //初始化单链表L
 
 DestroyList(LinkNode *L)  //释放单链表L
