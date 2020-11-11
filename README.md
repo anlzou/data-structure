@@ -2,7 +2,7 @@
  * @Date        : 2020-05-21 16:40:42
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-11-11 19:29:44
+ * @LastEditTime: 2020-11-11 19:33:19
  * @FilePath    : \data-structure\README.md
  * @Describe    : 
 --> 
@@ -10,9 +10,9 @@
 
 # 目录
 ### 第一章 绪论
-- [图解！24张图彻底弄懂九大常见数据结构！](./chapters/chapter01-introduction/nine-data-structure-diagrams.md)
-- [求 1~n 的连续整数和](./chapters/chapter01-introduction/test-1.md)
-- [常见算法时间函数的增长趋势分析](./chapters/chapter01-introduction/test-2.md)
+- [图解！24张图彻底弄懂九大常见数据结构！](./chapters/chapter01_introduction/nine-data-structure-diagrams.md)
+- [求 1~n 的连续整数和](./chapters/chapter01_introduction/test-1.md)
+- [常见算法时间函数的增长趋势分析](./chapters/chapter01_introduction/test-2.md)
 ### 第二章 线性表
 - [实现顺序表各种基本运算的算法](./chapters/chapter02_linear_list/test-1.md)
 - [实现单链表各种基本运算的算法](./chapters/chapter02_linear_list/test-2.md)
